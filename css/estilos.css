@@ -1,0 +1,40 @@
+body{
+  background-image:url("https://adrenaline.com.br/uploads/chamadas/doometernal.jpg");
+  background-size:auto 100vh;
+  height:100vh;
+  font-family:arial;
+}
+.menu{
+  background:black;
+  
+}
+
+a{
+  text-decoration:none;
+  color:teal;
+}
+a:hover{
+  text-decoration:underline;
+  color:white;
+}
+.menu li{
+  list-style:none;
+}
+
+ul{
+  display:flex;
+  justify-content:space-around;
+}
+
+h1,
+h2{
+  color:rgba(59, 145, 145, 0.74);
+  text-align:center;
+  font-style:italic;
+}
+
+h1:hover,
+h2:hover{text-decoration:underline;
+  color:white;
+  
+}
