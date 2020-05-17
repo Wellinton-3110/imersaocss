@@ -7,7 +7,8 @@ body{
   background: aquamarine;
   background-size:auto 100vh;
   height:100vh;
-  font-family:arial;
+  font-family:italic;
+  font-size:22px;
 }
 header{
   height: 100vh;
