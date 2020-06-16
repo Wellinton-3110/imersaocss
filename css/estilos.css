@@ -4,12 +4,25 @@
   box-sizing: border-box;
 }
 body{
-  background: aquamarine;
+  background:aquamarine;
   background-size:auto 100vh;
   height:100vh;
-  font-family:italic;
-  font-size:22px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 10px;
 }
+@media(min-width:350px){
+  body{
+    font-size: 20px;
+  }
+
+}
+@media(min-width:500px){
+  body{
+    font-size: 30px;
+  }
+
+}
+
 header{
   height: 100vh;
   display: flex;
@@ -26,8 +39,9 @@ header{
 }
 .menu a{
   display: block;
-  padding: 20px 30px;
+  padding: 20px 40px;
   color: aquamarine;
+  
   
 }
 
@@ -63,10 +77,37 @@ h2:hover{text-decoration:underline;
   
 }
 section{
-  background: palevioletred;
+ 
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  
 }
 
 section .img-port{
-  height: 550px;
-  width: 430px;
+  height: 500px;
+  width: auto;
+}
+
+.linkbot{
+  display: block;
+  padding: 5px 15px;
+  color: white;
+}
+.linkbot:hover{
+  color:black;
+  text-decoration: none;
+}
+button{
+  position: relative;
+  left: 50vw;
+  background:red;
+}
+.contbot{
+  background:black;
+}
+i{
+  height: 5px 7px;
 }
